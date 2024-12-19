@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header container">
+        <select name="filterOptions" id="filter_options">
+            <option value="first_name">First Name</option>
+            <option value="last_name">Last Name</option>
+            <option value="company">Company</option>
+        </select>
+        <input type="text" name="userDetails" id="user_details" placeholder="Enter your First Name">
+        <div class="payment_status-wrap">
+            <input type="checkbox" id="payment_status">
+            <label for="myCheckbox">Show paid orders</label>
+        </div>
+    </header>
+    <section class="user_table">
+        <div class="container">
+            <ul class="users_list"></ul>\
+        </div>
+    </section>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
