@@ -1,0 +1,61 @@
+body {
+  background-color: #efefef7d;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 500px;
+  margin: 100px auto 0;
+}
+
+select,
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #faf7d5;
+  font-size: 16px;
+  color: #050505;
+  cursor: pointer;
+}
+
+.payment_status-wrap {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.user_table {
+  display: flex;
+  justify-content: center;
+}
+
+.user_table {
+  margin-top: 30px;
+}
+
+.users_list {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.users_item {
+  border: 1px solid #050505;
+  padding: 20px;
+}
+
+.order_number {
+  padding: 10px;
+  border: 1px solid #050505;
+  border-radius: 10%;
+}
